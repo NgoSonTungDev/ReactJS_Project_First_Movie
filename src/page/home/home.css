@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+  background: #252525;
+}
+.top {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.top_bg {
+  position: absolute;
+  width: 100%;
+}
+
+.top_bg img {
+  width: 100%;
+  height: 717.9px;
+  background-position: center;
+  background-size: cover;
+}
+.home {
+  position: relative;
+}
+.content {
+  width: 70%;
+  margin-top: -50px !important;
+  margin: 0 15%;
+  flex-wrap: wrap;
+  flex: start;
+  display: flex;
+}
+.congcu {
+  width: 1000px;
+  margin-left: 270px;
+  height: 50px;
+  margin-top: 100px;
+  display: flex;
+}
+.congcu-find {
+  width: 380px;
+  height: 50px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+.select-phim {
+  margin-left: 10px;
+  background-color: rgba(0, 0, 0, 0.658);
+  border: 1px solid #fff;
+  color: #fff;
+}
+.box-input input {
+  padding: 5px;
+  border-radius: 5px;
+}
+.seach {
+  cursor: pointer;
+  width: 30px;
+  align-items: center;
+  height: 30px;
+  margin-left: 5px;
+}
+.seach i {
+  margin-top: 8px;
+}
+.seach:hover i {
+  color: #2980b9;
+}
+.text-gioithiuphim p {
+  color: #ff9601;
+  font-size: 25px;
+  margin: 25px 280px;
+}
+.carosel {
+  width: 80%;
+  margin: 0 10%;
+  margin-top: -50px !important;
+}
+
+.hello{
+  position: absolute;
+  /* width: 200px;
+  height: 50px; */
+  margin-right: 20px;
+  z-index: 2;
+  right: 0;
+  display: flex;
+  color: #fff;
+  margin-top: 5px;
+}
+.hello p {
+  margin-left: 5px;
+}

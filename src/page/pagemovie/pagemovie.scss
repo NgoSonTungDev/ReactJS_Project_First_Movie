@@ -1,0 +1,163 @@
+.container4 {
+  width: 100%;
+  background-color: #1a1a1a;
+}
+.name_wed p {
+  margin-top: 10px;
+  font-size: 50px;
+  width: 100%;
+  background-size: 350px;
+  color: #fff;
+  text-align: center;
+  font-family: "Festive", cursive;
+}
+.name_wed hr {
+ margin: 0 15%;
+ margin-top: -30px !important;
+}
+.content {
+  width: 70%;
+  margin: 0 15%;
+  margin-top: 10px !important;
+}
+.textcolor {
+  color: #ff9601;
+}
+.boxvideo {
+  margin-top: 5px;
+  width: 100%;
+  height: 600px;
+  position: relative;
+}
+.boxvideo iframe {
+  position: absolute;
+  z-index: 2;
+}
+
+.duoivideo {
+  margin-top: 5px;
+  width: 100%;
+  height: 40px;
+  align-items: center;
+  background: #222222;
+  display: flex;
+}
+.glow::before,
+.glow::after {
+  content: "";
+  position: absolute;
+  left: -2px;
+  top: -2px;
+  background: linear-gradient(
+    45deg,
+    #e6fb04,
+    #ff6600,
+    #00ff66,
+    #00ffff,
+    #ff00ff,
+    #ff0099,
+    #6e0dd0,
+    #ff3300,
+    #099fff
+  );
+  background-size: 400%;
+  width: calc(100% + 5px);
+  height: calc(100% + 5px);
+  z-index: 0;
+  animation: animate 20s linear infinite;
+}
+@keyframes animate {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+.glow::after {
+  filter: blur(50px);
+  opacity: 0.5;
+}
+.danhgia {
+  width: 50%;
+  height: 100%;
+  align-items: center;
+}
+.danhgia p {
+  font-size: 18px;
+}
+.chucnang {
+  width: 50%;
+  height: 100%;
+  
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+}
+
+.tatden{
+  width: 150px;
+  height: 100%;
+  margin-left: 150px;
+  display: flex;
+  align-items: center;
+}
+.tatden img {
+  width: 25px;
+  height: 25px;
+}
+.tatden p{
+  margin-left: 10px;
+  font-size: 13px;
+  color: #fff;
+}
+.tomtatphim{
+  width: 100%;
+
+}
+
+.tomtatphim p {
+  color: #fff;
+  font-size: 15px;
+  line-height: 25px;
+}
+.bonusphim{
+  width: 100%;
+  height: 250px;
+}
+.carosel{
+  width: 100% !important;
+  margin-top: -50px !important;
+  margin-left: 0px !important;
+}
+@media only screen and (max-width: 420px) and (max-width: 770px){
+  .container4 {
+    width: 100%;
+    overflow: hidden;
+  }
+  .content{
+    width: 100%;
+    margin-left: 0;
+  }
+  .boxvideo{
+    width: 100%;
+    height: 300px;
+  }
+  .boxvideo iframe{
+    width: 100%;
+    height: 300px;
+  }
+  .chucnang{
+    width: 100%;
+    flex-direction: column;
+  }
+  .tatden{
+    width: 100px;
+    margin-top: -5px;
+    margin-left: -10px;
+    background-color: rgba(255, 255, 255, 0.514);
+  }
+}
